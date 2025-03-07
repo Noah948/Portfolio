@@ -21,11 +21,11 @@ This is my personal portfolio website built using **React, Vite, and Tailwind CS
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/your-portfolio.git
+   git clone https://github.com/Noah948/Portfolio.git
    ```
 2. Navigate to the project folder:
    ```sh
-   cd your-portfolio
+   cd Portfolio
    ```
 3. Install dependencies:
    ```sh
