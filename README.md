@@ -1,8 +1,39 @@
-# React + Vite
+# 🚀 Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal portfolio website built using **React, Vite, and Tailwind CSS**. It showcases my skills, projects, and professional experience in a visually appealing and responsive design.
 
-Currently, two official plugins are available:
+## 🛠️ Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React + Vite** - For fast and optimized development.
+- **Tailwind CSS** - For sleek and responsive styling.
+- **JavaScript (ES6+)** - Core scripting language.
+- **React Router** - For smooth navigation between sections.
+
+## 📂 Features
+
+- 📌 **Professional Summary** - A section with an introduction and an image.
+- 🎨 **Skills Section** - Displays skill icons for a quick overview.
+- 🔗 **Projects Section** - Showcases my projects with images and links.
+- 📱 **Fully Responsive** - Works on all screen sizes.
+- 🚀 **Fast & Optimized** - Built using Vite for lightning-fast performance.
+
+## 📦 Installation & Setup
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/Noah948/Portfolio.git
+   ```
+2. Navigate to the project folder:
+   ```sh
+   cd Portfolio
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Run the development server:
+   ```sh
+   npm run dev
+   ```
+
+⭐ Don't forget to give a **star** if you like this project! ⭐
