@@ -9,14 +9,11 @@ import Summary from "./summary";
 import Skills from "./skills";
 import Projects from "./projects";
 
-
 const App = () => {
-  
   return (
-    
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen bg-[var(--background)] text-[var(--foreground)]">
       <Header />
-      <main className="flex-grow">
+      <main className="flex-grow px-6 md:px-12 lg:px-24">
         <Summary />
         <Skills />
         <Projects />

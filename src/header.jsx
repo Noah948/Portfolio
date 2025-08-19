@@ -3,33 +3,33 @@ import { motion } from "framer-motion";
 const Header = () => {
   return (
     <motion.header
-      className="bg-gradient-to-r from-blue-800 via-blue-700 to-teal-600 text-white p-4 shadow-lg sticky top-0 z-50"
-      initial={{ opacity: 0, y: -50 }} // Fade-in and slide down effect
+      className="bg-[#0d0d0d] border-b border-gray-800 text-gray-100 p-4 shadow-lg sticky top-0 z-50"
+      initial={{ opacity: 0, y: -50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
     >
-      <nav className="container mx-auto flex justify-between items-center">
-        {/* Animated Title */}
+      <nav className="w-full flex justify-between items-center px-4 md:px-12">
+        {/* Logo / Title */}
         <motion.h1
-          className="text-2xl font-bold tracking-wide hover:text-teal-200 transition-all cursor-pointer"
-          whileHover={{ scale: 1.1 }} // Slightly enlarges on hover
+          className="text-xl md:text-2xl font-semibold tracking-wide cursor-pointer hover:text-[var(--accent)] transition-colors"
+          whileHover={{ scale: 1.05 }}
           transition={{ type: "spring", stiffness: 300 }}
         >
-          Mohd Abdullah Siddiqui's Portfolio
+          Mohd Abdullah Siddiqui
         </motion.h1>
 
         {/* Navigation Links */}
-        <ul className="flex space-x-6">
+        <ul className="flex space-x-6 text-gray-400">
           {["About", "Skills", "Projects"].map((item, index) => (
             <motion.li
               key={item}
-              initial={{ opacity: 0, y: -20 }} // Staggered fade-in animation
+              initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: index * 0.2, duration: 0.5 }} // Adds a slight delay for each item
+              transition={{ delay: index * 0.15, duration: 0.5 }}
             >
               <a
                 href={`#${item.toLowerCase()}`}
-                className="hover:text-teal-300 transition-all text-lg"
+                className="relative text-sm md:text-base hover:text-[var(--accent)] transition-colors after:block after:h-[2px] after:bg-[var(--accent)] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left"
               >
                 {item}
               </a>
